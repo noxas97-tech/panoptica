@@ -15490,7 +15490,7 @@ Bolt Pistol is in two option lists for Legion Sky-Seeker, you will need to combi
             </selectionEntry><selectionEntry id="51a4-e642-6460-bbda" name="Phosphex Canister Shot*" publicationId="3970-79bb-bdc6-9599" page="43" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false"><conditionGroups><conditionGroup type="and"><conditions><condition field="selections" scope="0154-d7ea-4dcf-8db1" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4772-ea4f-6d0e-c117" type="atLeast"/><condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9335-7da8-087e-30de" type="atLeast"/></conditions></conditionGroup></conditionGroups></modifier>
-                <modifier type="increment" field="d2ee-04cb-5f8a-2642" value="15">
+                <modifier type="set" field="hidden" value="false"><conditions><condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bd75-611c-23bb-7064" type="atLeast"/></conditions></modifier><modifier type="increment" field="d2ee-04cb-5f8a-2642" value="15">
                   <repeats>
                     <repeat field="selections" scope="0154-d7ea-4dcf-8db1" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2813-4472-4a06-b7eb" repeats="1" roundUp="false"/>
                   </repeats>
@@ -17932,29 +17932,6 @@ Bolt Pistol is in two option lists for Legion Sky-Seeker, you will need to combi
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="1bc4-5503-e30a-9e72" name="Achea Force Stave" publicationId="3970-79bb-bdc6-9599" page="179" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="5604-632a-7d0f-1c2a" name="Achea Force Stave" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Reach (1), Achaen Force</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="2025-b506-5d6b-8b25" name="Achea Force Stave" hidden="false" typeId="b46c-270c-d29e-f0ff" typeName="Ability"><characteristics><characteristic name="Description" typeId="0982-427b-1d4a-d07c">Any model which would be eligible to select an Achea Pattern Force Weapon may choose to select an Achea Force Stave instead of the options found in Liber Hereticus, in the Achea Pattern Force Weapons section. An Achea Force Stave counts as a 'Force' weapon for all rules which affect such weapons.</characteristic></characteristics></profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="58d6-15ed-20cb-5e66" name="Reach (X)" hidden="false" targetId="19bf-62a2-5737-890b" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Reach (1)"/>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

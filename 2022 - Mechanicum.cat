@@ -1252,7 +1252,7 @@
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff1b-f9d7-b417-c057" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="4417-2a5d-c0ec-dd84" name="Orders of High Techno-arcana" hidden="false" collective="false" import="true" targetId="c36b-a6a2-9cb2-b090" type="selectionEntryGroup"/>
+        <entryLink id="4417-2a5d-c0ec-dd84" name="Orders of High/Proscribed Techno-arcana" hidden="false" collective="false" import="true" targetId="c36b-a6a2-9cb2-b090" type="selectionEntryGroup"/>
         <entryLink id="7fa1-908e-c53e-8fcb" name="Mechanicum Protectiva" hidden="false" collective="false" import="true" targetId="7908-9b34-c5bb-21c2" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1b6-784c-0df6-f37a" type="max"/>
@@ -1554,7 +1554,7 @@
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a96c-007d-083d-b58c" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="51ec-4169-13a5-abe4" name="Orders of High Techno-arcana" hidden="false" collective="false" import="true" targetId="c36b-a6a2-9cb2-b090" type="selectionEntryGroup"/>
+        <entryLink id="51ec-4169-13a5-abe4" name="Orders of High/Proscribed Techno-arcana" hidden="false" collective="false" import="true" targetId="c36b-a6a2-9cb2-b090" type="selectionEntryGroup"/>
         <entryLink id="811b-c29f-e0c8-6a52" name="Cortex Controller" hidden="false" collective="false" import="true" targetId="2fda-455f-d34d-97e0" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cee-cd20-154d-f271" type="min"/>
@@ -4461,6 +4461,7 @@ On a Game Turn in which a model armed with Stratos Thrusters activates them, the
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
                   </costs>
                 </entryLink>
+                <entryLink id="e3f8-a492-4d5e-c4d6" name="Irradiation Blaster" hidden="false" collective="false" import="true" targetId="46a7-9714-969d-65cb" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="cc12-3552-7c4b-7d3b" name="Any Krios in the squadron may take any of the following options:" hidden="false" collective="false" import="true">

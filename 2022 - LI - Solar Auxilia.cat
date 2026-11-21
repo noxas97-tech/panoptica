@@ -846,7 +846,7 @@
         <categoryLink targetId="36c3-e85e-97cc-c503" id="5401-af05-6a98-24c1" primary="false" name="Unit:"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Auxilia Breacher Tercio Each Auxilia Breacher Tercio Is A Single Troops Choice, Using Up A Single Troops Slot On The Force Organisation Chart" hidden="false" id="2d9d-2b04-1abf-9f40" type="selectionEntry" targetId="3310-b0ef-4e41-9a06">
+    <entryLink import="true" name="Auxilia Breacher Tercio" hidden="false" id="2d9d-2b04-1abf-9f40" type="selectionEntry" targetId="3310-b0ef-4e41-9a06">
       <categoryLinks>
         <categoryLink targetId="9b5d-fac7-799b-d7e7" id="1b4e-b373-2392-f3a4" primary="true" name="Troops:"/>
         <categoryLink targetId="36c3-e85e-97cc-c503" id="62ef-a6d0-c513-4b61" primary="false" name="Unit:"/>
@@ -858,7 +858,7 @@
         <categoryLink targetId="36c3-e85e-97cc-c503" id="480c-6a96-d6bf-2323" primary="false" name="Unit:"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Auxilia Infantry Support Tercio Each Auxilia Infantry Support Tercio Is A Single Non-Compulsory Troops Choice, Using Up A Single Troops Slot On The Force Organisation Chart" hidden="false" id="2668-4020-1c5b-f473" type="selectionEntry" targetId="6fad-1e31-42a4-90ba">
+    <entryLink import="true" name="Auxilia Infantry Support Tercio" hidden="false" id="2668-4020-1c5b-f473" type="selectionEntry" targetId="6fad-1e31-42a4-90ba">
       <categoryLinks>
         <categoryLink targetId="9b5d-fac7-799b-d7e7" id="86ad-b358-e813-3602" primary="true" name="Troops:"/>
         <categoryLink targetId="36c3-e85e-97cc-c503" id="55b9-7b86-9f64-e66e" primary="false" name="Unit:"/>
@@ -888,7 +888,7 @@
         <categoryLink targetId="36c3-e85e-97cc-c503" id="4c7d-af6d-6496-5214" primary="false" name="Unit:"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Auxilia Verticalis Drop Tercio Each Solar Auxilia Drop Tercio Is A Single Fast Attack Choice, Using Up A Single Fast Attack Slot On The Force Organisation Chart" hidden="false" id="1a2a-fea9-f75e-4925" type="selectionEntry" targetId="124a-f32d-4442-b42b">
+    <entryLink import="true" name="Auxilia Verticalis Drop Tercio" hidden="false" id="1a2a-fea9-f75e-4925" type="selectionEntry" targetId="124a-f32d-4442-b42b">
       <categoryLinks>
         <categoryLink targetId="20ef-cd01-a8da-376e" id="13dc-8f8d-63bf-81d4" primary="true" name="Fast Attack:"/>
         <categoryLink targetId="36c3-e85e-97cc-c503" id="77a7-b4a3-e8f9-4de4" primary="false" name="Unit:"/>
@@ -906,7 +906,7 @@
         <categoryLink targetId="36c3-e85e-97cc-c503" id="d5e3-3991-d470-784b" primary="false" name="Unit:"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Auxilia Light Armoured Tercio Each Auxilia Light Armoured Tercio Is A Single Fast Attack Choice, Using Up A Single Fast Attack Slot On The Force Organisation Chart" hidden="false" id="87eb-8d7b-d134-bf0b" type="selectionEntry" targetId="a520-ed43-4d78-b257">
+    <entryLink import="true" name="Auxilia Light Armoured Tercio" hidden="false" id="87eb-8d7b-d134-bf0b" type="selectionEntry" targetId="a520-ed43-4d78-b257">
       <categoryLinks>
         <categoryLink targetId="20ef-cd01-a8da-376e" id="1fe4-c597-b46c-1998" primary="true" name="Fast Attack:"/>
         <categoryLink targetId="36c3-e85e-97cc-c503" id="af7f-37ea-47f5-c068" primary="false" name="Unit:"/>
@@ -924,7 +924,7 @@
         <categoryLink targetId="36c3-e85e-97cc-c503" id="79f3-e2d5-4098-1105" primary="false" name="Unit:"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Auxilia Carnodon Tercio Each Auxilia Carnodon Tercio Is A Single Fast Attack Choice, Using Up A Single Fast Attack Slot On The Force Organisation Chart" hidden="false" id="5b97-64e7-9adf-18c7" type="selectionEntry" targetId="b287-36c9-40a2-abc5">
+    <entryLink import="true" name="Auxilia Carnodon Tercio" hidden="false" id="5b97-64e7-9adf-18c7" type="selectionEntry" targetId="b287-36c9-40a2-abc5">
       <categoryLinks>
         <categoryLink targetId="20ef-cd01-a8da-376e" id="a298-2fb9-ddbf-fb80" primary="true" name="Fast Attack:"/>
         <categoryLink targetId="36c3-e85e-97cc-c503" id="c2e3-880d-52e5-cb10" primary="false" name="Unit:"/>
@@ -990,7 +990,7 @@
         <categoryLink targetId="36c3-e85e-97cc-c503" id="3381-5146-5669-e407" primary="false" name="Unit:"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Auxilia Artillery Tercio Additions The Unit Listed Below May Be Selected Instead Of Or As Well As The Other Options Presented In Other Publications For An Auxilia Artillery Tercio" hidden="false" id="2de6-4333-d6d7-6d4e" type="selectionEntry" targetId="5a26-d499-4251-a65c">
+    <entryLink import="true" name="Auxilia Artillery Tercio Additions" hidden="false" id="2de6-4333-d6d7-6d4e" type="selectionEntry" targetId="5a26-d499-4251-a65c">
       <categoryLinks>
         <categoryLink targetId="7031-469a-1aeb-eab0" id="631e-a854-74fd-365d" primary="true" name="Heavy Support:"/>
         <categoryLink targetId="36c3-e85e-97cc-c503" id="c856-fd51-9511-29fd" primary="false" name="Unit:"/>

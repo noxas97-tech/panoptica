@@ -4776,8 +4776,8 @@ If this option is used then Mortarion is removed from the battlefield, leaving a
         </entryLink>
         <entryLink id="4fde-c529-f6e1-89f9" name="Nuncio-Vox" hidden="false" collective="false" import="true" targetId="005e-aae6-ddac-bb45" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="46e9-7036-643b-6fcc" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1a7b-3a8a-a1f4-dcb6" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46e9-7036-643b-6fcc" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a7b-3a8a-a1f4-dcb6" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="baf0-84f0-d38b-7bfd" name="Refractor Field" hidden="false" collective="false" import="true" targetId="a06a-55a5-070b-1d0e" type="selectionEntry">
@@ -4794,8 +4794,8 @@ If this option is used then Mortarion is removed from the battlefield, leaving a
         </entryLink>
         <entryLink id="0bdb-a45f-78c2-64e9" name="Phosphex Bomb" hidden="false" collective="false" import="true" targetId="4188-13ff-cb03-109e" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="46fd-fe67-5427-3aa5" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="38e4-4d93-6eff-0ca8" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46fd-fe67-5427-3aa5" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38e4-4d93-6eff-0ca8" type="max"/>
           </constraints>
           <modifiers>
             <modifier type="set" value="3 Phosphex Bombs" field="name"/>
@@ -4808,6 +4808,10 @@ If this option is used then Mortarion is removed from the battlefield, leaving a
           </constraints>
         </entryLink>
         <entryLink import="true" name="Siege Breaker" hidden="false" id="cfec-1025-7bf-a09d" type="selectionEntry" targetId="9335-7da8-087e-30de">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3904-c2c3-7796-ff82"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c07-7cc4-e1e7-56ba"/>
+          </constraints>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
           </costs>

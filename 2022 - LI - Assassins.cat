@@ -2151,4 +2151,7 @@ If the Leadership test is failed, both the unit making the Reaction and the unit
       </characteristics>
     </profile>
   </sharedProfiles>
+  <catalogueLinks>
+    <catalogueLink id="b7d2-5a41-9e3c-c0f8" name="Panoptica Library" targetId="69b7-3f60-9f7f-8ce5" type="catalogue" importRootEntries="false"/>
+  </catalogueLinks>
 </catalogue>

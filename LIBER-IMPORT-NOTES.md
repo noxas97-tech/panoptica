@@ -432,3 +432,12 @@ Result: all totals match the PDF; remaining unmatched lines are PDF layout artef
 - Moirax Talon (Ingenium) reuses the official Greuso Protocol, Armiger and Moirax Talons, Armiger Unit-Type and Stubborn; the 0-3 limit is a force-scope max on the Household entryLink.
 - Exemplar module slots: hidden gst cost type "Module Slots" on the nine slot-using option links (Hover 1, Strato-Cannon 1, Culverin 1, Mauler 1, Lascannon 2, Self-Repair 1, Reactor 2, Superstructure 2, Cascade 2) with a max 4 constraint on the unit.
 - Crusader Host is primary-only: it hides when Crusade, Mortalis, Household, Aegis Militant or Titan Maniple is in the roster, and those charts hide once it is added. LoW and Allied detachments are unaffected. The "no other chart" restriction on its units is not enforced.
+
+## Krios Irradiation Blaster (v85)
+Added from a user-supplied screenshot (upstream repo no longer available). New shared entry in Mech Library, new Radiation Beam rule, offered in the Krios hull weapon group. **Points cost is 0 and unverified** - set it once known. Still missing: Proscribed Techno-arcana orders (Aethertek, Malamina, Malefikite, Nekrotek) on the traitor Archmagos Prime.
+
+## Proscribed Techno-arcana (v86)
+Added Malefikite, Nekrotek, Malamina and Aethertek from The Martian Civil War (pp150-156) into the Orders group (renamed High/Proscribed). Hidden unless a Traitor allegiance force. Rites/weapons are profiles on each order; Ruinous Cybernetica and Bloodthirsty are new shared rules. Not enforced: the Decimator / Infernus Abomination detachment slots, +10pt Ruinous upgrade, +10pt abomination blades swap, Nekrotek +1 Wound. Durak Rask: Siege Breaker is now auto-selected (min/max 1).
+
+## Load fixes (v87)
+New Recruit refuses to load a catalogue whose links point outside the catalogues it imports. Fixed: Mech Library Searchlights link (pointed at Panoptica Library copy, now uses its own); LI - Assassins now links Panoptica Library (No Witnesses, Shattered Legionary rules); Achea Force Stave moved from Centura Library to Legiones Astartes (LA linked to it but cannot import Centura - cycle). validate_closure.py now reports 0. Keep it at 0.
